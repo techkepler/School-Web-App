@@ -1,0 +1,17 @@
+.news-post-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:20px;
+}
+
+
+@media screen and (min-width:1388px) {
+    .news-post-grid{
+        grid-template-columns: repeat(auto-fit, minmax(406px, 1fr));
+    }
+}
+@media screen and (min-width:1814px) {
+    .news-post-grid{
+        grid-template-columns: repeat(auto-fit, minmax(542px, 1fr));
+    }
+}

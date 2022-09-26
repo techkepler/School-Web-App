@@ -1,0 +1,27 @@
+@media screen and (min-width:1024px) {
+    .admin-body.sidebar-active {
+        left: 290px;
+        position: relative;
+        width: calc(100% - 290px);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .admin-body.colorbar-active {
+        position: relative;
+        width: calc(100% - 384px);
+    }
+}
+
+
+.member-grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.school-details-grid-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+}
+
+

@@ -1,0 +1,4 @@
+.school-details-grid-item{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+}

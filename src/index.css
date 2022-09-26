@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif; */
+    font-family: 'proxima-nova',Helvetica,Roboto,Arial,sans-serif;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #004B87;
+  }
+
+
+/* Swiper Prev Nex icon css */
+.swiper-button-next, .swiper-button-prev{
+  top:63% !important; 
+  background-color: black;
+  padding: 1rem;
+}
+
+@media screen and (min-width:700px) {
+  .swiper-button-next, .swiper-button-prev{
+    top:63% !important; 
+    background-color: black;
+    padding: 2rem;
+  }
+  
+}
