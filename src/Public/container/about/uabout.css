@@ -1,0 +1,47 @@
+.octo-image {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.octo {
+    transform: rotate(45deg);
+}
+
+.octo1 {
+    transform: rotate(-45deg);
+}
+
+.octo, .octo div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+/* news css */
+
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap:20px;
+}
+
+@media screen and (min-width:1340px) {
+    .news-grid{
+        grid-template-columns: repeat(auto-fit, minmax(406px, 1fr));
+    }
+}
+@media screen and (min-width:1764px) {
+    .news-grid{
+        grid-template-columns: repeat(auto-fit, minmax(548px, 1fr));
+    }
+}
+

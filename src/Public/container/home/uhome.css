@@ -1,0 +1,121 @@
+.home-news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 350px));
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .home-grid {
+      grid-template-columns: repeat(3, minmax(300px, 300px));
+      justify-content: center;
+    }
+  }
+  
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px 15px;
+  }
+  
+  @media screen and (min-width: 1090px) {
+    .feature-grid {
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+  }
+  
+  @media screen and (min-width: 1450px) {
+    .feature-grid {
+      grid-template-columns: repeat(auto-fit, minmax(453px, 1fr));
+    }
+  }
+  
+  @media screen and (min-width: 1900px) {
+    .feature-grid {
+      grid-template-columns: repeat(auto-fit, minmax(596px, 1fr));
+    }
+  }
+  
+  
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px 15px;
+  }
+  
+  @media screen and (min-width: 1090px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+  }
+  
+  @media screen and (min-width: 1450px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(453px, 1fr));
+    }
+  }
+  
+  @media screen and (min-width: 1900px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(596px, 1fr));
+    }
+  }
+  
+  
+  
+  .footer-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin: 10px;
+  }
+  
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes fadeLeft {
+    0% {
+      -webkit-transform: translateX(-5rem);
+              transform: translateX(-5rem);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeLeft {
+    0% {
+      -webkit-transform: translateX(-5rem);
+              transform: translateX(-5rem);
+      opacity: 0;
+    }
+  }
+  
+  
+  /* .swiper-slide-active div.parent-content {
+    animation: fadeLeft .4s linear .4s backwards;
+  
+  } */
+  
+  
+  .swiper-slide-active .home-bg-image {
+    animation: fadeOut .2s linear .2s backwards;
+  
+  }
+  
+  

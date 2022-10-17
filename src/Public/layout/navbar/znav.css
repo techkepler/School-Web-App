@@ -1,0 +1,55 @@
+ul.large-screen-bottom-ul li:nth-child(1) ul.about-ul{
+    width: 300px;
+    height: 350px;
+}
+
+ul.large-screen-bottom-ul li:nth-child(2) ul.academic-ul{
+    width: 300px;
+    height: 350px;
+    }
+
+
+ul.large-screen-bottom-ul li:nth-child(3) ul.admission-ul{
+    width: 300px;
+    height: 350px;
+}
+
+
+ul.large-screen-bottom-ul li:nth-child(4) ul.athletics-ul{
+    width: 300px;
+    height:350px;
+    /* right:40px; */
+}
+
+
+ul.large-screen-bottom-ul li:nth-child(5) ul.facilities-ul{
+    width: 300px;
+    height:350px;
+    right: 1px;
+}
+
+
+
+.display-enter {
+    scale:0;
+    left:-320px
+}
+  
+.display-enter-active {
+    left:0px;
+    scale:1;
+    transition: all .3s;
+    transform-origin: left;
+  }
+
+.display-exit {
+    left:0px;
+    transition: all .3s;
+    transform-origin: left;
+  }
+
+.display-exit-active {
+    left:-320px;
+    scale:0;
+
+  }
